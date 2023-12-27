@@ -2,11 +2,14 @@ import React from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Myprojects } from '../projects/Myprojects'
 import { MyPortfolio } from '../MyPortfolio'
+import { Navbar } from './components/Navbar'
 
 export const AppRouter = () => {
 
 
   return (
+    <>
+    < Navbar />
     <Routes>
     
 
@@ -16,6 +19,6 @@ export const AppRouter = () => {
             
         
 </Routes>
+      </>
   )
 }
-
