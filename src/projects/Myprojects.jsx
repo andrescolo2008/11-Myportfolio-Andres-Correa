@@ -8,10 +8,10 @@ export const Myprojects = () => {
     
       <br />
       <br />
-      <div style={{  alignItems: 'center',marginLeft:'570px' }} >
+      <div style={{  alignItems: 'center',marginLeft:'80em' }} class="animate__animated animate__fadeIn" >
 
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center',marginBottom:'20px' }}>
-  <div>
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center',marginBottom:'20px' }} >
+  <div >
     <h2>Journal App</h2>
     <a  href="https://journal-app-andres.netlify.app/" target='_blank' rel='noopener noreferrer' > <img   src="./src/assets/journalapp.jpg" alt="Foto de la aplicación del diario"  /> </a>
   </div>
@@ -42,8 +42,7 @@ export const Myprojects = () => {
     </div>  
 
       </div>
-    
-    </>
+          </>
 
     )
 }

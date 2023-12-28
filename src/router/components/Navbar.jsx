@@ -32,16 +32,17 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            {/* <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul className="navbar-nav ml-auto">
+            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2" style={{ marginLeft:'10%' }}>
+                
                     <NavLink 
                         className="nav-item nav-link" 
+                        class="animate__animated animate__zoomIn animate__infinite" 
                         to="/login"
                     >
-                        Logout
+                        Contact me
                     </NavLink>
-                </ul>
-            </div> */}
+                
+            </div>
         </nav>
     )
 }
