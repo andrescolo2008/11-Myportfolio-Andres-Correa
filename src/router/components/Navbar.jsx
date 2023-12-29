@@ -4,45 +4,44 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark" style ={{marginBottom: '50px'}}>
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark" >
             
-            <Link 
-                className=
-                // "nabvar-brand"  
-                {({isActive})=>`navbar-brand${isActive? 'active':''}`} 
-                to="/"
-                style={{ marginLeft: '40%' }}
-            >
-                Home
-            </Link>
+            <div className="navbar-nav">
+                         <NavLink 
+                             className=
+                             //  "nabvar-brand"  
+                             {({isActive})=>`nav-item nav-link${isActive? 'active':''}`} 
+                             to="/"
 
-            <div className="navbar-collapse w-100 order-3 dual-collapse2 " style={{ marginLeft: '10%' }}>
-                <div className="navbar-nav">
+                             >
+                             Home
+                         </NavLink>
 
+                <div>
+                
                     <NavLink 
                         className=
                         // "nav-item nav-link"
                         {({isActive})=>`nav-item nav-link${isActive? 'active':''}`} 
                         to="/my-projects"
-                    >
+                        >
                         My Projects
-                    </NavLink>
-
-                   
-                </div>
+                    </NavLink>      
+                
             </div>
 
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2" style={{ marginLeft:'10%' }}>
+                <div class="animate__animated animate__zoomIn animate__infinite">
                 
                     <NavLink 
                         className="nav-item nav-link" 
-                        class="animate__animated animate__zoomIn animate__infinite" 
-                        to="/login"
+                         
+                        to="/contact-me"
                     >
                         Contact me
                     </NavLink>
                 
-            </div>
+                </div>
+           </div>
         </nav>
     )
 }
