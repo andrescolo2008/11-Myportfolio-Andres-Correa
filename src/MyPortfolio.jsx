@@ -48,7 +48,7 @@ export const MyPortfolio = () => {
                         <div id='fotos-tech'className='col' class="animate__animated animate__zoomIn" >
                           <img  src="./src/assets/foto-react.jpg" alt="my foto de logo de react" style={{ marginRight: '100px'}} class="img-technologies" />
                     
-                          <img  src="./src/assets/foto-js.jpg" alt="my foto de logo de js" class="img-technologies"/>
+                          <img  src="./src/assets/foto-html-js-css.jpg" alt="my foto de logo de js" class="img-technologies"/>
                         
                   </div>
                   <br />

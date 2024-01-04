@@ -122,6 +122,12 @@ svg {
 
 .nav-item.nav-link{
 
-  margin-left: 200px;
+  margin-left: 35%;
 
+}
+
+.contact-box{
+  margin: 20vh;
+  height: 100%;
+  width: 60%;
 }

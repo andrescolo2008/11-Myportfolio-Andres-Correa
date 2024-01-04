@@ -17,7 +17,7 @@ export const Navbar = () => {
                              Home
                          </NavLink>
 
-                <div>
+                <div className="navbar-nav">
                 
                     <NavLink 
                         className=
@@ -30,7 +30,7 @@ export const Navbar = () => {
                 
             </div>
 
-                <div class="animate__animated animate__zoomIn animate__infinite">
+                <div className="navbar-nav animate__animated animate__zoomIn animate__infinite">
                 
                     <NavLink 
                         className="nav-item nav-link" 
