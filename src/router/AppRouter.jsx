@@ -5,6 +5,7 @@ import { MyPortfolio } from '../MyPortfolio'
 import { Navbar } from './components/Navbar'
 import { ContactMe } from '../contact/ContactMe'
 
+
 export const AppRouter = () => {
 
 
@@ -22,6 +23,9 @@ export const AppRouter = () => {
         
 </Routes>
       </>
-  )
+
+      
+  
+      )
 }
 

@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark" >
+        <nav className="navbar navbar-expand-sm d-flex justify-content-center align-items-center navbar-dark bg-dark" >
             
             <div className="navbar-nav">
                          <NavLink 
@@ -33,8 +33,7 @@ export const Navbar = () => {
                 <div className="navbar-nav animate__animated animate__zoomIn animate__infinite">
                 
                     <NavLink 
-                        className="nav-item nav-link" 
-                         
+                          
                         to="/contact-me"
                     >
                         Contact me

@@ -56,7 +56,7 @@ export const ContactMe = () => {
                 <div className="d-grid gap-2">
                     <input 
                         type="submit" 
-                        className="btnSubmit" 
+                        className=" btn-primary btnSubmit" 
                         value="Enviar" />
                 </div>
             </form>

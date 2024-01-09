@@ -81,6 +81,7 @@ button:focus-visible {
 svg {
   object-fit: cover;
   position: fixed;
+  z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
@@ -104,30 +105,16 @@ svg {
 }
 
 
-.navbar-brand,
-.navbar-nav,
-.navbar-collapse {
-  display: flex;
-  align-items: center;
-}
-
 .navbar-nav {
-  margin-left: 35%;
-  display: flex;
+  margin-left: 20%;
+  margin-right: 25%;
+  
 }
 
-.nav-item {
-  margin-left: 10px;
-}
-
-.nav-item.nav-link{
-
-  margin-left: 35%;
-
-}
 
 .contact-box{
   margin: 20vh;
   height: 100%;
   width: 60%;
 }
+

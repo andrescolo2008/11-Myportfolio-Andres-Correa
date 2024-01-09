@@ -1,58 +1,79 @@
-import React from 'react'
-
-export const WaveBackground = () => {
-  return (
-    
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+import * as React from "react"
+const SvgComponent = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    height="auto"
+    preserveAspectRatio="xMidYMax slice"
+    viewBox="0 0 1600 1100"
+    {...props}
+  >
     <defs>
-      <linearGradient id="bg">
-        <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
-        <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
-        <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+      <linearGradient id="a">
+        <stop
+          offset="0%"
+          style={{
+            stopColor: "rgba(130,158,249,.06)",
+          }}
+        />
+        <stop
+          offset="50%"
+          style={{
+            stopColor: "rgba(76,190,255,.6)",
+          }}
+        />
+        <stop
+          offset="100%"
+          style={{
+            stopColor: "rgba(115,209,72,.2)",
+          }}
+        />
       </linearGradient>
-      <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
-  s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+      <path
+        id="b"
+        fill="url(#a)"
+        d="M-363.852 502.589s236.988-41.997 505.475 0 371.981 38.998 575.971 0 293.985-39.278 505.474 5.859 493.475 48.368 716.963-4.995v560.106H-363.852v-560.97z"
+      />
     </defs>
-    <g>
-      <use xlink:href='#wave' opacity=".3">
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          type="translate"
-          dur="10s"
-          calcMode="spline"
-          values="270 230; -334 180; 270 230"
-          keyTimes="0; .5; 1"
-          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-          repeatCount="indefinite" />
-      </use>
-      <use xlink:href='#wave' opacity=".6">
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          type="translate"
-          dur="8s"
-          calcMode="spline"
-          values="-270 230;243 220;-270 230"
-          keyTimes="0; .6; 1"
-          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-          repeatCount="indefinite" />
-      </use>
-      <use xlink:href='#wave' opacty=".9">
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          type="translate"
-          dur="6s"
-          calcMode="spline"
-          values="0 230;-140 200;0 230"
-          keyTimes="0; .4; 1"
-          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-          repeatCount="indefinite" />
-      </use>
-    </g>
+    <use xlinkHref="#b" opacity={0.3}>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        calcMode="spline"
+        dur="10s"
+        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+        keyTimes="0; .5; 1"
+        repeatCount="indefinite"
+        type="translate"
+        values="270 230; -334 180; 270 230"
+      />
+    </use>
+    <use xlinkHref="#b" opacity={0.6}>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        calcMode="spline"
+        dur="8s"
+        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+        keyTimes="0; .6; 1"
+        repeatCount="indefinite"
+        type="translate"
+        values="-270 230;243 220;-270 230"
+      />
+    </use>
+    <use xlinkHref="#b">
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        calcMode="spline"
+        dur="6s"
+        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+        keyTimes="0; .4; 1"
+        repeatCount="indefinite"
+        type="translate"
+        values="0 230;-140 200;0 230"
+      />
+    </use>
   </svg>
-
-  )
-}
+)
+export default SvgComponent

@@ -1,10 +1,11 @@
 
 import { Link, NavLink } from 'react-router-dom';
 
+
 import './MyPortfolio.css'
 
-
 import { Myprojects } from './projects/Myprojects'
+import SvgComponent from './router/components/WaveBackground';
 
 
 export const MyPortfolio = () => {
@@ -13,7 +14,8 @@ export const MyPortfolio = () => {
   
   return (
     <>
-  
+                  <br />
+                  <br />
                  <div id='My-Portfolio'>
               
                   <h1>My-Portfolio</h1>
@@ -46,17 +48,19 @@ export const MyPortfolio = () => {
                   </div>
 
                         <div id='fotos-tech'className='col' class="animate__animated animate__zoomIn" >
-                          <img  src="./src/assets/foto-react.jpg" alt="my foto de logo de react" style={{ marginRight: '100px'}} class="img-technologies" />
+                          <img  src="./src/assets/foto-react.jpg" alt="my foto de logo de react" style={{ marginRight: '100px', width:'450px',height:'200px'}} class="img-technologies" />
                     
-                          <img  src="./src/assets/foto-html-js-css.jpg" alt="my foto de logo de js" class="img-technologies"/>
+                          <img  src="./src/assets/foto-html-js-css.jpg" alt="my foto de logo de js-css-html" class="img-technologies"/>
                         
                   </div>
                   <br />
 
                 
-                <footer style={{ marginTop: '100px' }}> developed by Andrés Muricio Correa Lozano </footer>
+                <footer style={{ marginTop: '100px' }}> developed by Andrés Mauricio Correa Lozano </footer>
+
+                
+                
     </>
-        
         
         )
         
