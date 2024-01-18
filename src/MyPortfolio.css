@@ -146,7 +146,8 @@ input{
 }
 
 .contact-container{
-  
+  font-family: 'M PLUS Code Latin', monospace;
+  font-size: 1.5em;
   max-width: 1100 px;
   max-height: 200px;
   padding: 20px;

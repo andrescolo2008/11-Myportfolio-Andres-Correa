@@ -5,11 +5,11 @@ import { Link, NavLink } from 'react-router-dom';
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm d-flex justify-content-center align-items-center navbar-dark bg-dark" >
+            <div class="navbar-brand " > <img src="./src/assets/physiodev.jpeg" width="180" height="180"  alt="logo-physiodev" /></div>
 
-            <div className=" d-flex container-fluid">
+            <div className=" d-flex container-fluid justify-content-center align-items-center">
 
             
-            <div class="navbar-brand " > <img src="./src/assets/physiodev.jpeg" width="180" height="180"  alt="logo-physiodev" /></div>
             <div className="navbar-nav">
           
 

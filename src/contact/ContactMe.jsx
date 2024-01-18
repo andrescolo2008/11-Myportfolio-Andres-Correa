@@ -31,18 +31,17 @@ export const ContactMe = () => {
 
 <br />
 <br />
-<br />
           <div class='container contact-container'>
         <div class= 'container text-center  d-flex justifiy-content-evenly'>
           <div class="row" >
-              <div class='col-4 col-md-4 col-lg-4'>
+              <div class='col-3 col-md-3 col-lg-3'>
               <a href="https://www.instagram.com/salud_n_movimiento?utm_source=qr&igsh=MThlbDVubHE0MjI3bg==" target='_blank' rel='noopener noreferrer'>
               <button type='button' class='btn btn-primary '>
                   <i class="bi bi-instagram"></i>
                   </button>  
               </a>
               </div>
-              <div class='col-4 col-md-4 col-lg-4'>
+              <div class='col-3 col-md-3 col-lg-3'>
 
               <a href="https://www.facebook.com/sssaludenmovimiento" target='_blank' rel='noopener noreferrer'>
               <button type='button' class='btn btn-primary '>
@@ -52,7 +51,7 @@ export const ContactMe = () => {
                 
               </div>
 
-              <div class='col-4 col-md-4 col-lg-4'>
+              <div class='col-3 col-md-3 col-lg-3'>
 
                 <a href="https://www.linkedin.com/in/andres-correa-618357189/" target='_blank' rel='noopener noreferrer'>
                 <button type='button' class='btn btn-primary '>
@@ -61,6 +60,16 @@ export const ContactMe = () => {
                 </a>
 
                 </div>
+
+                <div class='col-3 col-md-3 col-lg-3'>
+
+                      <a href="https://github.com/andrescolo2008" target='_blank' rel='noopener noreferrer'>
+                      <button type='button' class='btn btn-primary '>
+                      <i class="bi bi-github"></i>
+                          </button>  
+                      </a>
+
+                      </div>
                   </div>
                   </div>
               </div>

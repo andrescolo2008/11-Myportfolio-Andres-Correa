@@ -56,7 +56,15 @@ export const MyPortfolio = () => {
                   <br />
 
                 
-                <footer style={{ marginTop: '100px' }}> developed by Andrés Mauricio Correa Lozano </footer>
+                <footer style={{ marginTop: '100px' }}> 
+
+                <div class="row align-items-center justify-content-center" >
+
+                <img src="./src/assets/physiodev.jpeg" width="80" height="80"  alt="logo-physiodev" />
+                </div>
+                <br />
+                developed by Andrés Mauricio Correa Lozano(2024)&#169;
+                 </footer>
 
                 
                 
